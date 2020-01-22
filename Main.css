@@ -1,0 +1,288 @@
+body {
+    background-color: #f7fdfe;
+}
+
+.background-moutains {
+    background-image: url(../images/Layer\ 78.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.heder .btn.login-btn-round {
+    border-radius: 20px;
+    border: unset;
+    background-color: #0ebfdd;
+    font-size: 17px;
+    padding: 7px 35px;
+}
+
+.logo {
+    font-size: 30px;
+    font-family: "MuseoSans";
+    color: rgb(130, 134, 143);
+    line-height: 1.2;
+}
+
+.label {
+    font-size: 14px;
+    font-family: "MuseoSans";
+    line-height: 1.2;
+    height: 100%;
+}
+
+a.link-lable {
+    color: rgb(130, 134, 143);
+    text-decoration: none;
+}
+
+.main-info {
+    font-size: 20px;
+    font-family: "Myriad Pro";
+    color: rgb(247, 253, 254);
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.our-mission {
+    font-size: 44px;
+    font-family: "Avenir";
+    color: rgb(247, 253, 254);
+    line-height: 0.636;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.white-info {
+    background-color: #ffffff;
+    height: 250px;
+}
+
+.row-about {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.about {
+        font-size: 44px;
+        font-family: "Myriad Pro";
+        color: rgb(14, 191, 221);
+        line-height: 0.636;
+        text-align: center;
+}
+      
+.about-text {
+        font-size: 20px;
+        font-family: "Myriad Pro";
+        color: rgb(69, 73, 77);
+        line-height: 1.4;
+        margin-top: 35px;
+}
+      
+.team-info {
+height: 600px;
+background-color: #0ebfdd;
+}
+
+.pic-center {
+margin-left: 70px;
+}
+
+.team-pic {
+margin-top: 105px;
+}
+
+.team-button {
+    margin-top: 100px;
+}
+ 
+.text-center {
+    text-align: center;
+}
+
+.text-pic {
+        font-size: 18px;
+        font-family: "Myriad Pro";
+        color: rgb(247, 253, 254);
+        line-height: 1.2;
+}
+
+.head-team {
+        font-size: 44px;
+        font-family: "Myriad Pro";
+        color: rgb(255, 255, 255);
+        line-height: 0.636;
+        text-align: center;
+        margin-top: 60px;
+}
+
+.btn-team {
+    font-size: 13px;
+    font-family: "MuseoSans";
+    color: rgb(247, 253, 254);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 15px 40px;
+  }
+
+.border {
+    border: 1px solid white;
+    border-radius: 40px;
+   
+}
+.border-1 {
+    border: 0.5px solid grey;
+  
+}
+
+.full-pic {
+width: 100%;
+height: 100%;
+}
+  
+.map {
+height: 600px;
+}
+
+.botton {
+height: 120px;
+background-color: #45494d;
+}
+
+.botton-about {
+        font-size: 12px;
+        font-family: "Myriad Pro";
+        color: rgb(215, 222, 228);
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: right;
+        padding-left: 290px;
+    
+}
+
+.text-privacy {
+    text-align: right;
+    margin-top: 35px;
+    font-size: 12px;
+    font-family: "Myriad Pro";
+    color: rgb(115, 118, 122);
+    line-height: 1.2;
+}
+
+.text-botton {
+margin-top: 40px;
+}
+
+.social-networks {
+float: right;
+text-align: right;
+align-content: right;
+margin-top: 30px;
+}
+
+.privacy {
+    text-align: right;
+}
+
+@media (max-width: 576px) {
+    .heder {
+        min-height: 80px;
+        height: unset !important;
+    }
+
+
+
+    .logo {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .label {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .btn-login {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .pic-center {
+        width: 1%;
+        margin: auto;
+}
+    .pic-center1 {
+        width: 1%;
+        margin: auto;
+    }
+
+    .team-pic {
+        margin: 50px auto;
+    }
+    .team-button {
+        min-height: 60px;
+        height: unset !important;
+        margin: auto;
+    
+    }
+
+    .btn-team {
+        margin: auto;
+    }
+
+    .pic-team-min {
+    width: 80px;
+    
+    }
+.map {
+    height: 40px;
+}
+    .map-img {
+        width: 100%;
+        margin: auto;
+        
+        
+    }
+    .text-center {
+        text-align: center;
+        font-size: 70% ;
+        width: 200%;
+    
+
+    }
+
+    .botton {
+        height: 100%;;
+        padding: 40px;
+    }
+
+    .text-botton {
+    text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .btn-team {
+        margin: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .btn-team {
+        margin: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .heder {
+        height: 80px;
+    }
+
+    .btn-login {
+        text-align: right;
+    }
+
+}
